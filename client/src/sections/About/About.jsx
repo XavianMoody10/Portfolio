@@ -25,8 +25,8 @@ export const About = ({ setSection }) => {
             My name is <strong>Xavian Moody</strong>. I currently attend{" "}
             <strong>Broward Community College</strong> where I’ve earned my
             <strong> Associate's in Software Development</strong>. I began
-            learning how to code in 2020. Since the start of my learning
-            journey, I’ve learned so much and have{" "}
+            learning to code in 2020. Since the start of my coding journey, I’ve
+            learned so much and have{" "}
             <strong>
               gained so much confidence in my skills to become a valuable asset
               to any team or company.

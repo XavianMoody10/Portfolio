@@ -17,9 +17,9 @@ export const ProjectTechs = ({ reverse, techs }) => {
     } else if (tech === "react") {
       return <img key={tech} src={reactIcon} alt="" width={40} />;
     } else if (tech === "node") {
-      return <img key={tech} src={nodeIcon} alt="" width={100} />;
+      return <img key={tech} src={nodeIcon} alt="" width={70} />;
     } else if (tech === "express") {
-      return <img key={tech} src={expressIcon} alt="" width={120} />;
+      return <img key={tech} src={expressIcon} alt="" width={110} />;
     }
   });
 

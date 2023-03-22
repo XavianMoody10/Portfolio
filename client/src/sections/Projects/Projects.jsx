@@ -16,6 +16,7 @@ export const Projects = ({ setSection }) => {
 
   // Display projects using map method
   const dataMap = data.projects.map((project, index) => {
+    // check if index is and even or odd number
     const isEven = index % 2;
 
     return (
