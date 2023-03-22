@@ -21,9 +21,20 @@ export const Hero = ({ setSection }) => {
         <p>Front-End / Full-Stack Developer</p>
 
         <ul className="mt-2 flex gap-2">
-          <TwitterIcon></TwitterIcon>
-          <LinkedInIcon></LinkedInIcon>
-          <GitHubIcon></GitHubIcon>
+          <a href="https://twitter.com/XavianM2" target="true">
+            <TwitterIcon></TwitterIcon>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/xavian-moody-65bb77206/"
+            target="true"
+          >
+            <LinkedInIcon></LinkedInIcon>
+          </a>
+
+          <a href="https://github.com/XavianMoody10" target="true">
+            <GitHubIcon></GitHubIcon>
+          </a>
         </ul>
       </div>
     </section>

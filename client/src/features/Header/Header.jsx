@@ -19,7 +19,7 @@ export const Header = ({ section, setSection }) => {
   });
 
   return (
-    <header className="flex items-center justify-between px-9 py-4 fixed top-0 w-screen bg-white z-10">
+    <header className="flex items-center justify-between px-9 py-4 fixed top-0 w-screen bg-white z-20">
       <img src={logo} alt="logo" width={100} />
 
       <ul className="flex gap-4">{linksMap}</ul>

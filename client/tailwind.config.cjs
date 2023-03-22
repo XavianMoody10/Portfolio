@@ -23,6 +23,11 @@ module.exports = {
       boxShadow: {
         "shadow-card": "box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25)",
       },
+
+      translate: {
+        "left-50": "50px",
+        "right-50": -"50px",
+      },
     },
   },
   plugins: [],

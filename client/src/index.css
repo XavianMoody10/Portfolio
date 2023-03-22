@@ -26,3 +26,33 @@ section {
     opacity: 1;
   }
 }
+
+.enter-left {
+  animation: enter-left 0.7s ease-in forwards;
+}
+
+@keyframes enter-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.enter-right {
+  animation: enter-right 0.7s ease-in forwards;
+}
+
+@keyframes enter-right {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

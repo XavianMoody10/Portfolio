@@ -4,6 +4,7 @@ import htmlIcon from "../../assets/html.png";
 import cssIcon from "../../assets/css.png";
 import javascriptIcon from "../../assets/javascript.png";
 import reactIcon from "../../assets/react.png";
+import taiwindIcon from "../../assets/tailwind.png";
 import nodeIcon from "../../assets/node.png";
 import expressIcon from "../../assets/express.png";
 
@@ -43,6 +44,7 @@ export const About = ({ setSection }) => {
             <img src={cssIcon} alt="" width={70} />
             <img src={javascriptIcon} alt="" width={60} />
             <img src={reactIcon} alt="" width={60} />
+            <img src={taiwindIcon} alt="" width={190} />
             <img src={nodeIcon} alt="" width={110} />
             <img src={expressIcon} alt="" width={160} />
           </div>
