@@ -13,6 +13,15 @@ module.exports = {
 
       width: {
         "w-paragraph": "500px",
+        "w-card": "310px",
+      },
+
+      padding: {
+        "p-card": "10px 10px 20px 10px",
+      },
+
+      boxShadow: {
+        "shadow-card": "box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25)",
       },
     },
   },
