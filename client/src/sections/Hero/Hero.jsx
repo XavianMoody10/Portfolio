@@ -14,13 +14,13 @@ export const Hero = ({ setSection }) => {
   }, [inView]);
 
   return (
-    <section ref={ref} id="home" class="flex justify-center items-center">
-      <div class="flex flex-col items-center gap-2">
-        <p class="text-lg">Hi, my name is</p>
-        <h1 class="tracking-in-expand text-7xl font-bold">Xavian Moody</h1>
+    <section ref={ref} id="home" className="flex justify-center items-center">
+      <div className="flex flex-col items-center gap-2">
+        <p className="text-lg">Hi, my name is</p>
+        <h1 className="tracking-in-expand text-7xl font-bold">Xavian Moody</h1>
         <p>Front-End / Full-Stack Developer</p>
 
-        <ul class="mt-2 flex gap-2">
+        <ul className="mt-2 flex gap-2">
           <TwitterIcon></TwitterIcon>
           <LinkedInIcon></LinkedInIcon>
           <GitHubIcon></GitHubIcon>

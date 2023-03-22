@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         "unactive-link": "rgba(0, 0, 0, 0.285)",
       },
+
+      width: {
+        "w-paragraph": "500px",
+      },
     },
   },
   plugins: [],

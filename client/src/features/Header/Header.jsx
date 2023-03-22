@@ -11,7 +11,7 @@ export const Header = ({ section, setSection }) => {
         onClick={() => setSection(index)}
         key={index}
         href={`#${link.toLowerCase()}`}
-        class={section === index ? unactive : null}
+        className={section === index ? unactive : null}
       >
         {link}
       </a>
@@ -19,10 +19,10 @@ export const Header = ({ section, setSection }) => {
   });
 
   return (
-    <header class="flex items-center justify-between px-9 py-4 fixed top-0 w-screen bg-white">
+    <header className="flex items-center justify-between px-9 py-4 fixed top-0 w-screen bg-white">
       <img src={logo} alt="logo" width={100} />
 
-      <ul class="flex  gap-4">{linksMap}</ul>
+      <ul className="flex gap-4">{linksMap}</ul>
     </header>
   );
 };
