@@ -22,7 +22,7 @@ const projects = [
     desc: "Its a E-commerce website that sells clothing products for men.",
     links: {
       code: "https://github.com/XavianMoody10/Bestfit",
-      live: "https://bestfit.vercel.app/",
+      live: "https://bestfitstore.netlify.app/",
     },
     techs: ["react", "node", "express"],
   },
