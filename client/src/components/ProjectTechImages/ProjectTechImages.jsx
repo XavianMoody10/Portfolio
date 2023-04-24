@@ -8,7 +8,7 @@ import expressIcon from "../../assets/express.png";
 import tailwindIcon from "../../assets/tailwind.png";
 import mongodbIcon from "../../assets/mongodb.png";
 
-export const ProjectTechs = ({ reverse, techs }) => {
+export const ProjectTechImages = ({ reverse, techs }) => {
   const techsMap = techs.map((tech) => {
     if (tech === "html") {
       return <img key={tech} src={htmlIcon} alt="" width={50} />;
