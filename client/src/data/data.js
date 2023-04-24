@@ -2,6 +2,7 @@ import italianos from "../assets/projects/italianos.png";
 import bestfit from "../assets/projects/bestfit.png";
 import modernMuseum from "../assets/projects/modern-museum.png";
 import destinize from "../assets/projects/destinize.png";
+import gameTradeCenter from "../assets/projects/gametradecenter.png";
 
 const projects = [
   {
@@ -47,6 +48,17 @@ const projects = [
       live: "https://destinize-cyan.vercel.app/",
     },
     techs: ["react"],
+  },
+  {
+    id: 4,
+    title: "Game Trade Center",
+    image: gameTradeCenter,
+    desc: "A application used for trading games",
+    links: {
+      code: "https://github.com/XavianMoody10/GameTradeCenter",
+      live: "https://game-trade-center.vercel.app/",
+    },
+    techs: ["react", "node", "express", "mongodb", "tailwind"],
   },
 ];
 

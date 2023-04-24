@@ -5,6 +5,8 @@ import javascriptIcon from "../../assets/javascript.png";
 import reactIcon from "../../assets/react.png";
 import nodeIcon from "../../assets/node.png";
 import expressIcon from "../../assets/express.png";
+import tailwindIcon from "../../assets/tailwind.png";
+import mongodbIcon from "../../assets/mongodb.png";
 
 export const ProjectTechs = ({ reverse, techs }) => {
   const techsMap = techs.map((tech) => {
@@ -20,12 +22,18 @@ export const ProjectTechs = ({ reverse, techs }) => {
       return <img key={tech} src={nodeIcon} alt="" width={70} />;
     } else if (tech === "express") {
       return <img key={tech} src={expressIcon} alt="" width={110} />;
+    } else if (tech === "tailwind") {
+      return <img key={tech} src={tailwindIcon} alt="" width={110} />;
+    } else if (tech === "mongodb") {
+      return <img key={tech} src={mongodbIcon} alt="" width={110} />;
     }
   });
 
   return (
     <ul
-      className={`flex items-center gap-2 mt-3 ${reverse ? "justify-end" : ""}`}
+      className={` flex flex-wrap items-center justify-start content-between gap-2 mt-3 w-60 ${
+        reverse ? "justify-end ml-auto" : ""
+      }`}
     >
       {techsMap}
     </ul>
