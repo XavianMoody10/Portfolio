@@ -9,6 +9,7 @@ module.exports = {
 
       backgroundColor: {
         "custom-blue": "#203A43",
+        "custom-green": "#5D8496",
       },
 
       borderColor: {

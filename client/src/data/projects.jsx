@@ -4,7 +4,7 @@ import modernMuseum from "../assets/projects/modern-museum.png";
 import destinize from "../assets/projects/destinize.png";
 import gameTradeCenter from "../assets/projects/gametradecenter.png";
 
-const projects = [
+export const projects = [
   {
     id: 0,
     title: "ITALIANOS",
@@ -61,5 +61,3 @@ const projects = [
     techs: ["react", "node", "express", "mongodb", "tailwind"],
   },
 ];
-
-export default { projects };

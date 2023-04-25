@@ -26,6 +26,7 @@ export const Header = () => {
   const sectionsLinksMap = sections.map(({ section, href }) => {
     return (
       <a
+        key={section}
         href={href}
         className={` font-georama font-semibold text-lg text-white ${"underline"}`}
       >
