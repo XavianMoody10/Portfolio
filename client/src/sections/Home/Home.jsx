@@ -24,10 +24,11 @@ export const Home = () => {
         <p className=" mt-3 text-sm">Front-End/Full-Stack Web Developer</p>
 
         <p className=" mt-7 w-[620px] font-light text-center leading-10 text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. In
-          fermentum et sollicitudin ac orci phasellus egestas tellus. Sit amet
-          nisl suscipit adipiscing.
+          A hardworking and creative teamplayer looking forward to all
+          challenges and experiences in web development. Proficient in coding
+          and problem solving. Eager to gain experience, learn, and mature
+          professionally while working within the career field. Worked and
+          learned from professional developers from a young age.
         </p>
 
         <div className=" mt-7 flex gap-2 font-semibold">

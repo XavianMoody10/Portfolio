@@ -10,13 +10,12 @@ export const About = () => {
         <div className=" text-center ">
           <h2 className=" text-4xl font-bold mb-4">About Me</h2>
           <p className=" w-[620px] text-xl leading-[55px] font-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-            neque non augue vehicula molestie ut quis sapien. Duis vestibulum
-            metus nunc, vel laoreet tellus hendrerit eu. Praesent hendrerit
-            commodo nulla, auctor eleifend magna hendrerit vitae. Donec sit amet
-            elit in odio molestie suscipit. Sed euismod ex nec lorem ornare, id
-            congue enim dignissim. Curabitur eget nibh vel neque scelerisque
-            imperdiet vel vel ante.
+            I'm a web development enthusiast from Fort Lauderdale, Florida, who
+            earned an Associates Degree in Software Development from Broward
+            Community College in 2022. I'm eager to learn and grow to become a
+            valuable asset to any organization. My dedication to the field is
+            evident in my academic achievements, and I'm excited to continue
+            expanding my knowledge and skills.
           </p>
         </div>
 
