@@ -14,7 +14,7 @@ export const projects = [
       code: "https://github.com/XavianMoody10/Italianos",
       live: "https://italianos.vercel.app/",
     },
-    techs: ["html", "css", "javascript"],
+    techs: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: 1,
@@ -25,7 +25,7 @@ export const projects = [
       code: "https://github.com/XavianMoody10/Bestfit",
       live: "https://bestfit.vercel.app/",
     },
-    techs: ["react", "node", "express"],
+    techs: ["ReactJS", "NodeJS", "ExpressJS", "CSS Modules"],
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const projects = [
       code: "https://github.com/XavianMoody10/Modern-Museum-Website",
       live: "https://modern-museum-website.vercel.app/",
     },
-    techs: ["react"],
+    techs: ["ReactJS", "CSS Modules"],
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const projects = [
       code: "https://github.com/XavianMoody10/Destinize",
       live: "https://destinize-cyan.vercel.app/",
     },
-    techs: ["react"],
+    techs: ["ReactJS", "CSS Modules"],
   },
   {
     id: 4,
@@ -58,6 +58,6 @@ export const projects = [
       code: "https://github.com/XavianMoody10/GameTradeCenter",
       live: "https://game-trade-center.vercel.app/",
     },
-    techs: ["react", "node", "express", "mongodb", "tailwind"],
+    techs: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Tailwind"],
   },
 ];
