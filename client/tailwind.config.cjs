@@ -3,6 +3,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "custom-blue": "#203A43",
+      },
+
       fontFamily: {
         georama: ["Georama", "sans-serif"],
       },

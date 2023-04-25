@@ -4,9 +4,14 @@ import { FaLinkedinIn as LinkedinIcon } from "react-icons/fa";
 
 export const Home = () => {
   const buttonStyles =
-    "bg-custom-blue text-white border-custom-gray border-2 w-28 p-1 rounded-md";
+    "bg-custom-blue text-white border-custom-gray border-2 w-28 p-1 rounded-md hover:bg-slate-200 hover:text-custom-blue";
   const socialLinksStyles =
-    " bg-custom-blue border-custom-gray border-2 rounded-full h-10 w-10 flex items-center justify-center";
+    " bg-custom-blue border-custom-gray border-2 rounded-full h-10 w-10 flex items-center justify-center duration-75 hover:scale-110";
+
+  // Button click scoll to sections
+  const buttonScrollHanlder = (section) => {
+    document.getElementById(section).scrollIntoView();
+  };
 
   return (
     <section
@@ -26,8 +31,18 @@ export const Home = () => {
         </p>
 
         <div className=" mt-7 flex gap-2 font-semibold">
-          <button className={buttonStyles}>My Work</button>
-          <button className={buttonStyles}>Contact Me</button>
+          <button
+            className={buttonStyles}
+            onClick={() => buttonScrollHanlder("projects")}
+          >
+            My Work
+          </button>
+          <button
+            className={buttonStyles}
+            onClick={() => buttonScrollHanlder("contact")}
+          >
+            Contact Me
+          </button>
         </div>
       </div>
 

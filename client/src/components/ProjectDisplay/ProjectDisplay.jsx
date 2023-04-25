@@ -11,6 +11,7 @@ export const ProjectDisplay = ({ reverse, project }) => {
     threshold: 0.5,
   });
 
+  // Display tech stack list
   const techMap = [...techs].map((tech) => {
     return <li>{tech}</li>;
   });
@@ -54,7 +55,10 @@ export const ProjectDisplay = ({ reverse, project }) => {
       </div>
 
       <div
-        className="bg-black w-[600px] h-full mt-7 bg-center bg-cover bg-no-repeat relative"
+        className="bg-black w-[600px] h-full mt-7 bg-center bg-cover bg-no-repeat relative cursor-pointer"
+        onClick={() => {
+          window.open(links.live, "_blank");
+        }}
         style={{ backgroundImage: `url(${image})` }}
       >
         <motion.div

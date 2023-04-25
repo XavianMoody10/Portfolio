@@ -2,7 +2,10 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <div className=" h-screen flex items-center justify-center bg-custom-gradient">
+    <section
+      id="contact"
+      className=" h-screen flex items-center justify-center bg-custom-gradient"
+    >
       <div className=" text-white text-center flex flex-col gap-2">
         <h1 className=" text-4xl font-bold mb-7">Contact</h1>
         <p className=" text-xl">
@@ -16,6 +19,6 @@ export const Contact = () => {
           Hope to hear from you...Thank You
         </p>
       </div>
-    </div>
+    </section>
   );
 };

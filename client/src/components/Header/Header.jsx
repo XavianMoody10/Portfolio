@@ -28,7 +28,7 @@ export const Header = () => {
       <a
         key={section}
         href={href}
-        className={` font-georama font-semibold text-lg text-white ${"underline"}`}
+        className=" font-georama font-semibold text-lg text-white hover:border-b"
       >
         {section}
       </a>
