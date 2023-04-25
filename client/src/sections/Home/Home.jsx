@@ -47,13 +47,27 @@ export const Home = () => {
       </div>
 
       <ul className=" absolute flex gap-3 bottom-10 left-10">
-        <a href="" target="true" className={socialLinksStyles}>
+        <a
+          href="https://twitter.com/XavianM2"
+          target="_blank"
+          className={socialLinksStyles}
+        >
           <TwitterIcon color="white" size={20} />
         </a>
-        <a href="" target="true" className={socialLinksStyles}>
+
+        <a
+          href="https://www.linkedin.com/in/xavian-moody-65bb77206/"
+          target="_blank"
+          className={socialLinksStyles}
+        >
           <LinkedinIcon color="white" size={20} />
         </a>
-        <a href="" target="true" className={socialLinksStyles}>
+
+        <a
+          href="https://github.com/XavianMoody10"
+          target="_blank"
+          className={socialLinksStyles}
+        >
           <GitIcon color="white" size={20} />
         </a>
       </ul>
