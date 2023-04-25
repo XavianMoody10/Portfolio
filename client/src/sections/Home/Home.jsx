@@ -9,7 +9,10 @@ export const Home = () => {
     " bg-custom-blue border-custom-gray border-2 rounded-full h-10 w-10 flex items-center justify-center";
 
   return (
-    <div className=" h-screen flex items-center relative">
+    <section
+      id="home"
+      className=" h-screen flex items-center relative bg-custom-gradient"
+    >
       <div className=" flex flex-col justify-center items-center text-white w-full">
         <p className=" text-xl">Hi, Im</p>
         <h1 className=" text-5xl font-bold mt-2">Xavian Moody</h1>
@@ -39,6 +42,6 @@ export const Home = () => {
           <GitIcon color="white" size={20} />
         </a>
       </ul>
-    </div>
+    </section>
   );
 };
