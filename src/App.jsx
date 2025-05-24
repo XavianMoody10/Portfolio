@@ -1,4 +1,15 @@
+import { Header } from "./layouts/Header";
+import { LandingSection } from "./layouts/LandingSection/LandingSection";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+
+      <main className=" w-[90%] mx-auto">
+        <LandingSection />
+      </main>
+    </>
+  );
 };
 export default App;
