@@ -6,18 +6,18 @@ export const Project = ({
   description,
   sourceCodeLink,
   liveViewLink,
-  backgroundImageSrc,
+  image,
 }) => {
   return (
     <div className=" space-y-5 border-b border-black/70 pb-3">
-      <div className=" min-h-[300px] lg:h-[400px] 2xl:h-[550px] border border-black/25"></div>
+      <div className=" border border-black/25">
+        <img src={image} alt={`${name} image`} />
+      </div>
 
-      <div className=" flex flex-col justify-between gap-4 min-h-[150px]">
-        <h4 className=" text-3xl font-barlow font-semibold xl:text-4xl">
-          {name}
-        </h4>
+      <div className=" flex flex-col justify-between gap-5">
+        <h4 className=" text-3xl font-primary font-semibold">{name}</h4>
 
-        <p className=" text-lg">{description}</p>
+        <p className=" text-lg min-h-[60px]">{description}</p>
 
         <div className=" flex gap-3">
           <a href={sourceCodeLink} target="_blank">

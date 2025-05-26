@@ -8,8 +8,11 @@ import ReactLogo from "../../assets/react.png";
 
 export const LandingSection = () => {
   return (
-    <section className=" min-h-screen flex flex-col items-center justify-center gap-3">
-      <h2 className=" text-2xl font-barlow text-center flex flex-wrap justify-center gap-x-1.5 duration-150">
+    <section
+      id="home"
+      className=" min-h-screen flex flex-col items-center justify-center gap-3"
+    >
+      <h2 className=" text-2xl font-primary text-center flex flex-wrap justify-center gap-x-1.5 duration-150">
         <div>
           <span className=" font-bold">Hello</span>, I'm a
         </div>
@@ -22,7 +25,7 @@ export const LandingSection = () => {
         <span>Developer</span>
       </h2>
 
-      <h1 className=" text-7xl text-center font-barlow font-extrabold lg:text-8xl">
+      <h1 className=" text-7xl text-center font-primary font-extrabold lg:text-8xl">
         Xavian Moody
       </h1>
 

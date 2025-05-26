@@ -1,16 +1,24 @@
 import { ElementAnimateFromRight } from "../../components/ElementAnimateFromRight/ElementAnimateFromRight";
 import { ElementAnimateFromLeft } from "../../components/ElementAnimateFromLeft/ElementAnimateFromLeft";
+import { TextSlideUp } from "../../components/TextSlideUp/TextSlideUp";
 
 export const AboutSection = () => {
   return (
-    <section className=" min-h-screen flex flex-col justify-center space-y-16">
-      <h3 className=" text-2xl border-b border-black/25 pb-3 font-semibold">
-        About
+    <section
+      id="about"
+      className=" min-h-screen flex flex-col justify-center gap-16"
+    >
+      <h3 className=" text-5xl border-b border-black/25 pb-3 font-semibold">
+        <TextSlideUp
+          words={["About", "About", "About"]}
+          colors={["#F28C8C", "#66BB6A", "#64B5F6"]}
+          height={"50px"}
+        />
       </h3>
 
       <div className=" flex flex-col items-center justify-between gap-14 lg:flex-row lg:items-baseline">
         <ElementAnimateFromLeft>
-          <p className=" font-barlow text-xl lg:max-w-[500px] md:text-xl lg:text-3xl">
+          <p className=" font-primary text-xl lg:max-w-[500px] md:text-xl lg:text-3xl">
             "Everybody in this country should learn to program a computer,
             because it teaches you how to think. Computer science is not just
             about coding—it’s about problem-solving, creativity, and building a
@@ -19,7 +27,7 @@ export const AboutSection = () => {
         </ElementAnimateFromLeft>
 
         <ElementAnimateFromRight>
-          <div className=" flex flex-col gap-5 lg:max-w-[600px] md:text-lg">
+          <div className=" flex flex-col gap-5 lg:max-w-[600px] md:text-lg font-primary">
             <p>
               I hold an Associate of Science degree in Software Development and
               have been honing my skills in coding for the past three years. My

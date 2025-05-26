@@ -3,7 +3,7 @@ import { motion, useInView } from "motion/react";
 
 export const ElementAnimateFromRight = ({ children }) => {
   const fromRightElRef = useRef();
-  const fromRightElIsInView = useInView(fromRightElRef);
+  const fromRightElIsInView = useInView(fromRightElRef, { once: true });
 
   return (
     <motion.div

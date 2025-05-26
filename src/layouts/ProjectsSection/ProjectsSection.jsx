@@ -1,6 +1,10 @@
 import { ElementAnimateFromLeft } from "../../components/ElementAnimateFromLeft/ElementAnimateFromLeft";
 import { ElementAnimateFromRight } from "../../components/ElementAnimateFromRight/ElementAnimateFromRight";
 import { Project } from "../../components/Project/Project";
+import { TextSlideUp } from "../../components/TextSlideUp/TextSlideUp";
+import Trafalgar from "../../assets/trafalgar.jpg";
+import Waves from "../../assets/waves.jpg";
+import FilmReviewApplication from "../../assets/film-review-application.jpg";
 
 export const ProjectsSection = () => {
   const projectsCollection = [
@@ -8,7 +12,7 @@ export const ProjectsSection = () => {
       name: "Waves",
       description:
         "Responsive Digital Agency Website (Community) made with HTML, SCSS, and JavaScript",
-      background_image: "",
+      image: Waves,
       sourceCodeLink: "https://github.com/XavianMoody10/Waves",
       liveViewLink: "https://waves-xavian.netlify.app/",
     },
@@ -17,7 +21,7 @@ export const ProjectsSection = () => {
       name: "Trafalgar",
       description:
         "Trafalgar Landing Page (Community) made with HTML, SCSS, and JavaScript",
-      background_image: "",
+      image: Trafalgar,
       sourceCodeLink: "https://github.com/XavianMoody10/Trafalgar",
       liveViewLink: "https://trafalgar-xavian.netlify.app/",
     },
@@ -26,7 +30,7 @@ export const ProjectsSection = () => {
       name: "Film Review Application",
       description:
         "A full-stack MERN application that allows users to rate and leave reviews for movies and TV shows.",
-      background_image: "",
+      image: FilmReviewApplication,
       sourceCodeLink:
         "https://github.com/XavianMoody10/Film-Review-Application",
       liveViewLink: "https://film-review-application-frontend.onrender.com/",
@@ -44,6 +48,7 @@ export const ProjectsSection = () => {
             description={p.description}
             sourceCodeLink={p.sourceCodeLink}
             liveViewLink={p.liveViewLink}
+            image={p.image}
           />
         </ElementAnimateFromRight>
       );
@@ -51,11 +56,11 @@ export const ProjectsSection = () => {
       return (
         <ElementAnimateFromLeft key={p.name}>
           <Project
-            key={p.name}
             name={p.name}
             description={p.description}
             sourceCodeLink={p.sourceCodeLink}
             liveViewLink={p.liveViewLink}
+            image={p.image}
           />
         </ElementAnimateFromLeft>
       );
@@ -63,9 +68,13 @@ export const ProjectsSection = () => {
   });
 
   return (
-    <section>
-      <h3 className=" text-2xl border-b border-black/25 pb-3 font-semibold">
-        Projects
+    <section id="projects" className=" pt-24">
+      <h3 className=" text-4xl border-b border-black/25 pb-3 font-semibold">
+        <TextSlideUp
+          words={["PROJECTS", "PROJECTS", "PROJECTS"]}
+          colors={["#F28C8C", "#66BB6A", "#64B5F6"]}
+          height={"44px"}
+        />
       </h3>
 
       <div className=" w-full grid grid-cols-1 gap-10 mt-10 min-[700px]:grid-cols-2">

@@ -1,4 +1,5 @@
 import { AboutSection } from "./layouts/AboutSection/AboutSection";
+import { Footer } from "./layouts/Footer/Footer";
 import { Header } from "./layouts/Header";
 import { LandingSection } from "./layouts/LandingSection/LandingSection";
 import { Main } from "./layouts/Main/Main";
@@ -8,11 +9,14 @@ const App = () => {
   return (
     <>
       <Header />
+
       <Main>
         <LandingSection />
         <AboutSection />
         <ProjectsSection />
       </Main>
+
+      <Footer />
     </>
   );
 };

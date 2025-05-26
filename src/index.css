@@ -2,5 +2,5 @@
 @import "tailwindcss";
 
 @theme {
-  --font-barlow: "Barlow", sans-serif;
+  --font-primary: "Barlow", sans-serif;
 }

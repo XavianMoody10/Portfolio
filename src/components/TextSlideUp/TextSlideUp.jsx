@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 
-export const TextSlideUp = ({ words, colors }) => {
+export const TextSlideUp = ({ words, colors, height }) => {
   const containerRef = useRef(null);
   const [animationCount, setAnimationCount] = useState(0);
   const [widths, setWidths] = useState([]);
@@ -37,10 +37,9 @@ export const TextSlideUp = ({ words, colors }) => {
   const spans = words.map((w, i) => {
     return (
       <span
-        key={`${w}${i}`}
-        className={` font-bold text-[${[
-          colors[i] || null,
-        ]}] whitespace-nowrap w-fit`}
+        key={`${w}${colors[i]}`}
+        style={{ color: colors[i], height: height || "32px" }}
+        className={` font-bold whitespace-nowrap w-fit`}
       >
         {w}
       </span>
@@ -48,7 +47,10 @@ export const TextSlideUp = ({ words, colors }) => {
   });
 
   return (
-    <div className={`${widths[animationCount]} h-[32px] overflow-hidden`}>
+    <div
+      className={`${widths[animationCount]} overflow-hidden w-fit`}
+      style={{ height: height || "32px" }}
+    >
       <motion.div
         initial={{ y: 0, width: widths[0] }}
         animate={{
@@ -59,15 +61,6 @@ export const TextSlideUp = ({ words, colors }) => {
         className=" flex flex-col items-center"
         ref={containerRef}
       >
-        {/* <span className=" font-bold text-[#61DAFB] whitespace-nowrap w-fit">
-          Front-End
-        </span>
-        <span className=" font-bold text-[#47A248] whitespace-nowrap w-fit">
-          MERN-Stack
-        </span>
-        <span className=" font-bold text-[#F7DF1E] whitespace-nowrap w-fit">
-          Full-Stack
-        </span> */}
         {spans}
       </motion.div>
     </div>
