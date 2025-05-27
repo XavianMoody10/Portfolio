@@ -8,7 +8,10 @@ export const Footer = () => {
   };
 
   return (
-    <footer className=" max-w-[1300px] mx-auto mt-52 flex flex-col justify-center gap-7 pb-7">
+    <footer
+      id="contact"
+      className=" max-w-[1300px] mx-auto mt-52 flex flex-col justify-center gap-7 pb-7"
+    >
       <h2 className="  text-6xl font-primary font-bold min-[500px]:text-8xl">
         LET'S WORK TOGETHER
       </h2>
