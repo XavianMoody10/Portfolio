@@ -4,7 +4,7 @@ import { Project } from "../../components/Project/Project";
 import { TextSlideUp } from "../../components/TextSlideUp/TextSlideUp";
 import Trafalgar from "../../assets/trafalgar.jpg";
 import Waves from "../../assets/waves.jpg";
-import FilmReviewApplication from "../../assets/film-review-application.jpg";
+import Popcornscore from "../../assets/popcornscore.png";
 
 export const ProjectsSection = () => {
   const projectsCollection = [
@@ -27,13 +27,12 @@ export const ProjectsSection = () => {
     },
 
     {
-      name: "Film Review Application",
+      name: "Popcornscore",
       description:
         "A full-stack MERN application that allows users to rate and leave reviews for movies and TV shows.",
-      image: FilmReviewApplication,
-      sourceCodeLink:
-        "https://github.com/XavianMoody10/Film-Review-Application",
-      liveViewLink: "https://film-review-application-frontend.onrender.com/",
+      image: Popcornscore,
+      sourceCodeLink: "https://github.com/XavianMoody10/Popcornscore",
+      liveViewLink: "https://popcornscore.onrender.com",
     },
   ];
 
